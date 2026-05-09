@@ -1,0 +1,15 @@
+Source: worldanime
+Section: games
+Priority: optional
+Maintainer: PSD Authors <opensource@psdauthors.example>
+Build-Depends: debhelper-compat (= 13), gcc
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+Homepage: https://github.com/procyberian/worldanime
+
+Package: worldanime
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Interactive ASCII globe animation for terminal
+ Terminal-based C application that renders a rotating ASCII Earth with
+ keyboard controls, shading effects, and NASA-derived land/ocean mask data.

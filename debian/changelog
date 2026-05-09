@@ -1,0 +1,7 @@
+worldanime (2.0.0-1) unstable; urgency=medium
+
+  * Add Debian packaging for world_animation project.
+  * Build and install world_animation binary to /usr/bin/world_animation.
+  * Document Debian package build workflow in README.
+
+ -- PSD Authors <opensource@psdauthors.example>  Sat, 09 May 2026 22:30:00 +0300

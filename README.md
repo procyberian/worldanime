@@ -38,6 +38,40 @@ Build command:
 gcc -O2 -o world_animation world_animation.c -lm
 ```
 
+## Debian Package
+
+This repository includes Debian packaging metadata in the `debian/` directory.
+
+Required tools:
+
+- `dpkg-dev`
+- `debhelper` (compat level 13)
+- `gcc`
+
+Build a binary package:
+
+```bash
+dpkg-buildpackage -us -uc -b
+```
+
+Generated artifacts are created in the parent directory, for example:
+
+- `../worldanime_2.0.0-1_amd64.deb`
+- `../worldanime_2.0.0-1_amd64.buildinfo`
+- `../worldanime_2.0.0-1_amd64.changes`
+
+Install the package locally:
+
+```bash
+sudo dpkg -i ../worldanime_2.0.0-1_amd64.deb
+```
+
+After installation, run:
+
+```bash
+world_animation
+```
+
 ## Run
 
 ```bash

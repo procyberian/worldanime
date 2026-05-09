@@ -1,5 +1,21 @@
 2026-05-09  PSD Authors
 
+	* debian/control, debian/changelog, debian/copyright,
+	  debian/rules, debian/source/format: Add Debian packaging support.
+	- Define package metadata for `worldanime`.
+	- Build binary via debhelper and install to /usr/bin/world_animation.
+	- Set native package format and AGPL copyright metadata.
+
+	* README.md: Document Debian package workflow.
+	- Add prerequisites and `dpkg-buildpackage -us -uc -b` command.
+	- Document generated artifact paths and local install command.
+
+	* release prep:
+	- Build binary package successfully:
+	  ../worldanime_2.0.0-1_amd64.deb
+
+2026-05-09  PSD Authors
+
 	* README.md: Add comprehensive project documentation.
 	- Describe project purpose and technical goals.
 	- Document build and run workflow.
