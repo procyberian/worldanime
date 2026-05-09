@@ -1,0 +1,39 @@
+2026-05-09  PSD Authors
+
+	* world_animation.c: Created ASCII globe animation program.
+	- Added terminal animation loop with ANSI rendering.
+	- Added land/ocean map texturing and globe rotation.
+
+	* world_animation.c: Added interactive controls.
+	- Arrow keys for rotation speed and vertical tilt.
+	- '+' and '-' speed scaling.
+	- 'q' to quit.
+	- Raw terminal mode with non-blocking input and clean restore.
+
+	* world_animation.c: Added CLI options and help.
+	- -s SPIN for initial longitude.
+	- -v SPEED for initial spin speed.
+	- -h and --help for usage output.
+
+	* world_animation.c: Improved terminal output stability.
+	- Shortened status line to avoid wrapping artifacts.
+	- Added end-of-line erase sequences to prevent stale characters.
+
+	* world_animation.c: Added license header.
+	- Added AGPL-3.0-or-later copyright notice.
+	- Copyright (C) 2026 PSD Authors.
+
+	* world_animation.c: Updated globe data source.
+	- Replaced hand-drawn/OpenStreetMap-style mask with NASA-derived
+	  land mask from Blue Marble-style raster.
+	- Updated source attribution comments accordingly.
+
+	* world_animation.c: Rendering realism improvements.
+	- Added atmospheric rim glow.
+	- Added day/night transition smoothing.
+	- Added ocean specular highlights.
+	- Added subtle night-side city-light effect.
+
+	* build/output maintenance
+	- Rebuilt program successfully multiple times.
+	- Removed generated binary on request.
