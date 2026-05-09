@@ -1,5 +1,14 @@
 2026-05-09  PSD Authors
 
+	* debian/changelog: Bump package version to 2.1.0-1.
+	- Prepare minor release cycle for package publication.
+
+	* release packaging:
+	- Attempt Debian package assets for amd64, i386, and riscv64.
+	- Publish successful build artifacts with v2.1.0 release.
+
+2026-05-09  PSD Authors
+
 	* debian/control, debian/changelog, debian/copyright,
 	  debian/rules, debian/source/format: Add Debian packaging support.
 	- Define package metadata for `worldanime`.
