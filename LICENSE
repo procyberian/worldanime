@@ -1,3 +1,20 @@
+World Anime (ASCII Globe)
+Program purpose:
+This project demonstrates a real-time terminal globe renderer in C,
+including ASCII graphics, animation, keyboard interaction, and basic
+rendering/light techniques for educational and practical use.
+
+Copyright (C) 2026 PSD Authors
+
+Simplified license summary (non-binding):
+- You may use, run, study, copy, modify, and share this program.
+- If you distribute modified versions, you must keep notices and license terms.
+- If users interact with a modified version over a network, you must offer the
+  corresponding source code of that modified version under AGPL terms.
+- This software is provided without warranty.
+
+The full legally binding license text begins below.
+
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 

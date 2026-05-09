@@ -1,5 +1,19 @@
 2026-05-09  PSD Authors
 
+	* README.md: Add comprehensive project documentation.
+	- Describe project purpose and technical goals.
+	- Document build and run workflow.
+	- Add full CLI options and interactive controls reference.
+	- Add data-source attribution and file overview.
+	- Clarify license section with concise AGPL notice and reference.
+
+	* LICENSE: Add project-specific preface above full AGPL text.
+	- Add program-purpose statement for context.
+	- Add project copyright line: Copyright (C) 2026 PSD Authors.
+	- Add simplified non-binding summary before legally binding text.
+
+2026-05-09  PSD Authors
+
 	* world_animation.c: Created ASCII globe animation program.
 	- Added terminal animation loop with ANSI rendering.
 	- Added land/ocean map texturing and globe rotation.
